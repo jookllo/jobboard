@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String appTitle = 'Locations for Checkup';
+    const String appTitle = 'Locations for Vacation';
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
@@ -25,13 +25,14 @@ class MyApp extends StatelessWidget {
               ButtonSection(),
               TextSection(
                   description:
-                      'Lake Victoria, located in East Africa, is the world\'s '
-                      ' largest tropical lake by surface area, spanning 26,828 square miles. '
-                      ' Renowned for its rich biodiversity and vital fishing communities, '
-                      ' it offers visitors a blend of natural beauty and cultural vibrancy. '
-                      ' Here, traditional dhows sail amidst diverse fish species like the Nile perch, '
-                      ' creating a picturesque scene. Whether exploring bustling fishing villages or enjoying tranquil boat cruises,'
-                      ' Lake Victoria captivates with its sheer size and captivating allure. '
+                      'Lake Victoria, located in East Africa, is the world\'s largest tropical lake by surface area, spanning 26,828 square miles. '
+                      'This vast water body is renowned for its rich biodiversity and offers visitors a myriad of activities to explore and enjoy. '
+                      'Fishing enthusiasts can partake in exciting expeditions, aiming for prized catches like the Nile perch. '
+                      'For a more leisurely experience, serene boat cruises allow travelers to admire the scenic beauty and tranquil ambiance of the lake. '
+                      'Bustling fishing villages along the shores provide cultural immersion, showcasing local traditions and vibrant markets. '
+                      'Nature lovers can engage in birdwatching, spotting various avian species that inhabit the lake\'s lush surroundings. '
+                      'Furthermore, cultural tours offer insights into the region\'s heritage, allowing visitors to connect with local communities and traditions. '
+                      'In essence, Lake Victoria captivates with its natural splendor and diverse array of experiences, making it a must-visit destination for travelers.'
                       ),
             ],
           ),
